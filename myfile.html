@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A.A Marketing</title>
+    <style>
+        /* Existing styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(45deg, #C33764, #1D2671);
+            background-size: 1800% 1800%;
+            animation: gradientAnimation 30s ease infinite;
+            color: #333;
+        }
+        @keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center; /* Center content */
+            padding: 1em 2em;
+            position: relative;
+        }
+        header img.title-image {
+            max-width: 100%; /* Ensure it doesn't exceed the width of the header */
+            height: auto;
+            max-height: 80px; /* Adjust as needed to fit within the header */
+        }
+        header h1 {
+            font-size: 3em; /* Increased font size */
+            background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #0066ff;
+        }
+        .contact-info, .social-media {
+            background-color: #0066ff;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+        .contact-info p, .social-media p {
+            margin: 0;
+        }
+        .contact-info p strong, .social-media a {
+            font-weight: bold;
+        }
+        .contact-info p a {
+            color: #ffd700;
+            text-decoration: none;
+        }
+        .contact-info p a:hover {
+            text-decoration: underline;
+        }
+        .social-media a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 1.2em;
+        }
+        .social-media a:hover {
+            text-decoration: underline;
+        }
+        .social-media img {
+            width: 24px;
+            height: 24px;
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border: 2px solid #0066ff;
+        }
+        .faq p {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #e7f3e7;
+            border-radius: 8px;
+            border: 1px solid #0066ff;
+        }
+        footer {
+            background-color: white;
+            padding: 20px;
+            text-align: center;
+            border-top: 1px solid #ccc;
+        }
+        footer img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px;
+            border: 2px solid #0066ff;
+            border-radius: 8px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            section {
+                margin: 10px;
+                padding: 15px;
+            }
+            .gallery img {
+                max-width: 80px;
+            }
+            .contact-info, .social-media {
+                padding: 8px;
+            }
+            .social-media a {
+                display: block;
+                margin: 5px 0;
+            }
+            footer img {
+                max-width: 80px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Logo image -->
+        <img src="https://i.ibb.co/tq3xmR7/IMG-7490.png" alt="Title Image" class="title-image">
+        <h1>A.A Marketing</h1>
+    </header>
+
+    <section>
+        <h2>Welcome To The World Of Real Estate!</h2>
+        <p>We Are A Full-Service Real Estate Company Dedicated TO Providing Efficient And Reliable Services To Our Customers. We Specialize in Residential, Commercial, And Industrial Real Estate. Our Comprehensive Services include Property Management, Property Search and Acquisition, Mortgage And Finance Services, Title Services, And More. With Our Experienced And Knowledgeable Agents, You Can Trust Us To Help You Find The Perfect Home For You and Your Family. Contact US Today!</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="https://i.ibb.co/6YDzXZ6/66359.jpg" alt="About Me Image" style="max-width: 100%; height: auto; max-height: 300px; border-radius: 8px;">
+        <p>Ahmed Raza</p>
+        <p>As A Seasoned Real Estate Expert With 4 Years Of Experience, I Have Helped Numerous Clients Find Their Perfect Homes, Plots, And Apartments In Islamabad. My Mission Is To Provide Top-Notch Services, Ensuring A Stress-Free And Successful Experience. Let's Connect And Make Your Real Estate Dreams A Reality!</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>Blue World City</strong></li>
+            <li><strong>Capital Smart City</strong></li>
+            <li><strong>Kingdom Valley</strong></li>
+            <li><strong>New Metro City, Gujar Khan/Rawalpindi</strong></li>
+            <li><strong>New Metro City Mandi Bahauddin</strong></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Blue World City Blocks</h2>
+        <ul>
+            <li>Sports Valley</li>
+            <li>General Block</li>
+            <li>Overseas Block</li>
+            <li>Waterfront District</li>
+            <li>Awaami Block</li>
+            <li>Down Town</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>New Metro City, Gujar Khan/Rawalpindi Blocks</h2>
+        <ul>
+            <li>Early Block</li>
+            <li>A South Block</li>
+            <li>B Block</li>
+            <li>B Central Block</li>
+            <li>C Block</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Capital Smart City Blocks</h2>
+        <ul>
+            <li>Executive Block</li>
+            <li>Overseas Block</li>
+            <li>Overseas East Block</li>
+            <li>Overseas Prime Block</li>
+            <li>Harmony Park Block</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Kingdom Valley Blocks</h2>
+        <ul>
+            <li>General Block</li>
+            <li>Harmony Block</li>
+            <li>Executive Block</li>
+        </ul>
+    </section>
+
+    <section class="gallery">
+        <h2>Gallery</h2>
+        <img src="https://www.newmetrocity.com.pk/v2/i/big-gujar-khan3.webp" alt="Gallery Image 1">
+        <img src="https://i.ibb.co/PZdbtRg/IMG-9130.jpg" alt="Gallery Image 2">
+        <img src="https://i.ibb.co/7KzPVf9/de34c187-f81b-4bc3-8204-55e2cb91c50b.jpg" alt="Gallery Image 3">
+        <img src="https://i.ibb.co/mb6VgR8/IMG-5569.png" alt="Gallery Image 4">
+        <img src="https://th.bing.com/th/id/OIP.Z1HJOGzB7mHqM-hhhEb9fwHaFj?pid=ImgDet&rs=1" alt="Gallery Image 5">
+        <img src="https://th.bing.com/th/id/OIP.Eh22pIZTNfzGZuvg7BAVkAHaCi?pid=ImgDet&w=474&h=162&rs=1" alt="Gallery Image 6">
+        <img src="https://blueworldcity.com/wp-content/uploads/2024/04/DJI_0318.jpg" alt="Gallery Image 7">
+        <img src="https://blueworldcity.com/wp-content/uploads/2024/05/Stadium-Site-02-384x384.jpg" alt="Gallery Image 8">
+        <img src="https://blueworldcity.com/wp-content/uploads/2024/05/Family-Park-01-384x384.jpg" alt="Gallery Image 9">
+        <img src="https://blueworldcity.com/wp-content/uploads/blueworld_latest_development/Gate-No-3-Development-View-384x384.png" alt="Gallery Image 10">
+    </section>
+
+    <section class="faq">
+        <h2>FAQ</h2>
+        <p><strong>Question:</strong> How To Contact Us?</p>
+        <p><strong>Answer:</strong> You can reach us through our contact information provided above.</p>
+    </section>
+
+    <section class="contact-info">
+        <h2>Contact Information</h2>
+        <p><strong>Email:</strong> <a href="mailto:info@example.com">info@example.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+9203331114042">(92) 0333-1114042</a></p>
+        <p><strong>Address:</strong> <a href="https://maps.app.goo.gl/2YYXs7tUu7zRZzze9?g_st=com.google.maps.preview.copy" target="_blank">Office #10, First Floor, Khyber-01, G-15 Markaz Islamabad, Pakistan</a></p>
+    </section>
+
+    <section class="social-media">
+        <h2>Follow Us</h2>
+        <a href="https://www.facebook.com/A.AMarketingISB" target="_blank" title="Facebook">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook"> Facebook
+        </a>
+        <a href="https://youtube.com/@A.AMarketing" target="_blank" title="YouTube">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube"> YouTube
+        </a>
+        <a href="https://instagram.com/a.amarketingisb" target="_blank" title="Instagram">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram"> Instagram
+        </a>
+        <a href="http://X.com/AAMarketingISB" target="_blank" title="X">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Twitter_Logo_as_of_2021.svg" alt="X"> X
+        </a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 A.A Marketing. All rights reserved.</p>
+        <!-- Example image in footer -->
+        <img src="https://blueworldcity.com/wp-content/uploads/2024/05/Footer-Image.jpg" alt="Footer Image">
+    </footer>
+
+    <!-- Tawk.to Widget Code -->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function() {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/66acbd0132dca6db2cb92c40/1i49c4k28'; // Replace with your actual Tawk.to ID
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!-- End of Tawk.to Widget Code -->
+</body>
+</html>
